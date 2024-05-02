@@ -1,0 +1,41 @@
+body{
+    height: 850px;
+    display: flex;
+    justify-content: center;
+}
+.wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    perspective: 1000px;
+}
+  
+h1{
+    position: absolute;
+    z-index: -1;
+}
+  
+.door{
+    width: 340px;
+    height: 200px;
+    background-color: #872d62;
+    border: 4px solid#651142;
+    transition: all 0.9s;
+}
+  
+.door_left{
+    transform-origin: left;
+}
+  
+.door_right{
+    transform-origin: right;
+}
+  
+.wrap:hover > .door_left{
+    transform: rotateY(57deg);
+}
+  
+  .wrap:hover > .door_right{
+    transform: rotateY(-57deg);
+}
