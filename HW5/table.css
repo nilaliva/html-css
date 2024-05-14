@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  th, td {
+    border: 1px solid #ddd;
+    padding: 16px; /* Увеличим размер ячеек */
+    text-align: left;
+  }
+
+  th {
+    background-color: #4CAF50; /* Зеленый цвет для заголовка */
+    color: rgb(0, 0, 0); /* Белый текст для заголовка */
+    position: sticky;
+    top: 0;
+    font-size: 18px; /* Увеличим размер шрифта заголовка */
+  }
+
+  td:nth-child(odd) {
+    background-color: #f2f2f2; /* Серый цвет для четных ячеек */
+  }
+
+  td:nth-child(even) {
+    background-color: #ddd; /* Светло-серый цвет для нечетных ячеек */
+  }

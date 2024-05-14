@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+  
+.subscription-plans {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+  
+.plan {
+    width: 300px; 
+    height: 320px; 
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    transition: transform 1s, box-shadow 1s;
+    margin-right: 20px; 
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+  
+.plan:last-child {
+    margin-right: 0; 
+}
+  
+.plan:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+  
+.plan h2 {
+    margin-top: 0;
+}
+  
+.plan p {
+    color: #666;
+}
+  
+.plan button {
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+  
+.plan button:hover {
+    background-color: #0056b3;
+}
+  
+.color-line1 {
+    border: none;
+    height: 3px;
+    background-color: #ce2b6f; 
+}
+.color-line2 {
+    border: none;
+    height: 3px;
+    background-color: #f5a237; 
+}
+.color-line3 {
+    border: none;
+    height: 3px;
+    background-color: #2750a7;
+}
+.color-line4 {
+    border: none;
+    height: 3px;
+    background-color: #69cf5c; 
+}
+
+.color-buy1 {
+    background-color: #ce2b6f; 
+    color: white;
+}
+  .color-buy2 {
+    background-color: #f5a237;
+    color: white;
+  }
+  .color-buy3 {
+    background-color: #2750a7; 
+    color: white;
+  }
+.color-buy4 {
+    background-color: #69cf5c; 
+    color: white;
+}
