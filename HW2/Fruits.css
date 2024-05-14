@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.fruits-list {
+    list-style-type: none;
+    padding: 20px;
+    background-color: #d99faf;
+    margin: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.fruits-list li {
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+}
+
+.fruits-list li:last-child {
+    margin-bottom: 0;
+}
+
+.fruits-list li.dark {
+    background-color: #af6577;
+}
+
+.fruits-list li.dark span.number {
+    background-color: #af6577;
+    color: #ffffff;
+    padding: 5px;
+    margin-right: 5px;
+}
+
+.fruits-list li.dark span.text {
+    background-color: #88384c;
+    color: #ffffff;
+    padding: 10px;
+}

@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.tasks-list {
+    list-style-type: none;
+    padding: 20px;
+    margin: 20px;
+}
+
+.tasks-list li {
+    padding: 10px;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.tasks-list li:nth-child(even) {
+    background-color: #bcd6e5;
+}
+
+.tasks-list li:nth-child(odd) {
+    background-color: #b3cbd9;
+}
+
+.tasks-list li.completed {
+    background-color: #f5f5f5;
+}
+
+.tasks-list li.completed i {
+    color: rgb(0, 0, 0);
+}
+
+.tasks-list li.not-completed i {
+    color: rgb(0, 0, 0);
+}
+
+.tasks-list li.special {
+    background-color: #e2e2e2;
+}
+
+.delete-task {
+    font-weight: bold; 
+    cursor: pointer;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.delete-task i.fas.fa-times {
+    color: red; /* Красный цвет для крестика */
+}
+
+.delete-task i.far.fa-square {
+    color: black; /* Черный цвет для квадратика */
+}
+
+.completed span {
+    text-decoration: line-through;
+}
